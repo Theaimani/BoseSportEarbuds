@@ -1,0 +1,18 @@
+/* [ON MOBILE DEVICES] */
+
+.sosbike_logo {
+    width: 80px;
+    float: left;
+    margin: 15px 0px 0px 15px;
+}
+
+
+
+
+.navigation__container {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 100%;
+    z-index: 9999;
+}
