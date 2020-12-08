@@ -1,18 +1,272 @@
 /* [ON MOBILE DEVICES] */
 
-.sosbike_logo {
-    width: 80px;
-    float: left;
-    margin: 15px 0px 0px 15px;
+/*--header logo--*/
+
+.bose_logo_header{
+    width: 200px;
+    margin: 20px 0px 20px 55px;
+}
+
+/*--navigation container--*/
+.navigation_container_mobile {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+}
+
+/*--menu items--*/
+.menu_heading {
+    text-align: center;
+    padding: 12px 0px 15px 45px;
+    font-family: industry;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+
+.mobileiconlabel {
+    float: right;
+    display: inline-block;
+    color: lightgrey;
+    font-style: normal;
+    font-size: 30px;
+    padding: 10px 15px 0px 0px;
+}
+
+.menu_page_links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.menuitem {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.active_menuitem {
+    color: #014c6b;
+}
+
+.menu_navigation {
+    margin-left: auto;
+    font-family: sol-pro;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.menu_bose_icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.some_mobile_menu_icons{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.menu_some_icon {
+    flex-direction: row;
+    margin: auto;
+    width: 70px;
+}
+
+/*
+.menu_sosbikelogo1 {
+    display: none;
+}*/
+
+
+/*.menu_paragraph {
+    width: 100%;
+    text-align: center;
+}*/
+
+/*
+.cta_style {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.Donate_text {
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+
+}
+
+.arrow {
+
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+
+}*/
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+
+
+/* Hide checkbox and menuitems until clicked */
+.menuitems__container,
+.mobileicon {
+    display: none;
+    background-color: white;
+    padding-bottom: 15px;
 }
 
 
 
 
-.navigation__container {
-    position: absolute;
-    right: 5px;
-    top: 10px;
-    width: 100%;
-    z-index: 9999;
+/* Show menuitems when mobileicon-label is clicked */
+.navigation_container_mobile input:checked ~ .menuitems__container {
+    display: block;
+}
+
+
+
+
+/* ------------Add rules [ON WIDE SCREENS]---------------------- */
+
+
+@media only screen and (min-width: 900px) {
+
+
+    /* Hide Mobile icon and its label */
+    .mobileiconlabel,
+    .mobileicon {
+        display: none;
+    }
+
+    .menu_paragraph {
+        display: none;
+    }
+
+    .sosbike_logo {
+        display: none;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .moab {
+        display: none;
+    }
+
+
+    .cta_style {
+        display: none;
+    }
+
+    .menu_bose_icon {
+        /*width: 8%;
+        margin-left: 15px;
+        margin-right: 15px;*/
+        display: none;
+
+    }
+    .menu_some_icon {
+        /*width: 8%;
+        margin-left: 15px;
+        margin-right: 15px;*/
+        display: none;
+
+    }
+
+    /*.menu_sosbikelogo1 {
+        width: 8%;
+        /*   margin-left: 15px;
+        margin-right: 15px;*/
+        /*display: block;
+    }*/
+
+    .menu_heading {
+        display: none;
+    }
+
+
+    .menu_navigation {
+        margin-left: 0%;
+        /*display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;*/
+    }
+
+
+    .navigation_container_mobile {
+        /*display: none;*/
+        right: auto;
+    }
+
+
+    .navigation_container_desktop {
+        width: 900px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .menuitems__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        background-color: rgba(211, 211, 211, 0);
+        padding-top: 0px;
+    }
+
+    .menuitem {
+        width: 130px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
 }
