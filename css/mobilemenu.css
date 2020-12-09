@@ -2,12 +2,20 @@
 
 /*--header logo--*/
 
-.bose_logo_header{
+.bose_logo_header {
+    display: block;
     width: 200px;
-    margin: 20px 0px 20px 55px;
+    /*margin: 20px 0px 20px 0px;*/
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-/*--navigation container--*/
+.bose_logo_header_desktop {
+    display: none;
+}
+
+/*--navigation container mobile--*/
 .navigation_container_mobile {
     position: absolute;
     top: 0px;
@@ -33,7 +41,7 @@
     padding: 10px 15px 0px 0px;
 }
 
-.menu_page_links{
+.menu_page_links {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -64,17 +72,19 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 300px;
     margin-top: 35px;
     margin-bottom: 35px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.some_mobile_menu_icons{
+.some_mobile_menu_icons {
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: auto;
+    justify-content: center;
+    /*margin-left: 20px;
+    margin-right: 20px;*/
     margin-bottom: 40px;
 }
 
@@ -82,6 +92,10 @@
     flex-direction: row;
     margin: auto;
     width: 70px;
+}
+
+.navigation_container_desktop {
+    display: none;
 }
 
 /*
@@ -131,12 +145,6 @@
 
 }*/
 
-.right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-}
-
-
 
 /* Hide checkbox and menuitems until clicked */
 .menuitems__container,
@@ -157,94 +165,67 @@
 
 
 
+/*
+.navigation_container_desktop{
+    display: none;
+}
+
+.menuitems__container_desktop{
+    display: none;
+}
+
+.menu_page_links_desktop{
+    display: none;
+}
+
+.menu_navigation_desktop{
+    display: none;
+}
+
+.nav_container_desktop{
+    display: none;
+}
+
 /* ------------Add rules [ON WIDE SCREENS]---------------------- */
 
 
 @media only screen and (min-width: 900px) {
 
 
-    /* Hide Mobile icon and its label */
+   /* Hide Mobile icon and its label */
     .mobileiconlabel,
     .mobileicon {
         display: none;
     }
 
-    .menu_paragraph {
-        display: none;
+    .bose_logo_header{
+        width: 280px;
     }
-
-    .sosbike_logo {
-        display: none;
-    }
-
-    .arrow {
-        display: none;
-    }
-
-    .right {
-        display: none;
-    }
-
-    .moab {
-        display: none;
-    }
-
-
-    .cta_style {
-        display: none;
-    }
-
-    .menu_bose_icon {
-        /*width: 8%;
-        margin-left: 15px;
-        margin-right: 15px;*/
-        display: none;
-
-    }
-    .menu_some_icon {
-        /*width: 8%;
-        margin-left: 15px;
-        margin-right: 15px;*/
-        display: none;
-
-    }
-
-    /*.menu_sosbikelogo1 {
-        width: 8%;
-        /*   margin-left: 15px;
-        margin-right: 15px;*/
-        /*display: block;
-    }*/
 
     .menu_heading {
         display: none;
     }
 
 
-    .menu_navigation {
-        margin-left: 0%;
-        /*display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size: 18px;*/
-    }
-
 
     .navigation_container_mobile {
-        /*display: none;*/
-        right: auto;
+        position: sticky;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: block;
     }
 
 
-    .navigation_container_desktop {
+    .navigation__container_wide {
         width: 900px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
     }
 
 
@@ -252,21 +233,39 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 70px;
+        height: 51px;
         background-color: rgba(211, 211, 211, 0);
         padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+
     }
 
     .menuitem {
-        width: 130px;
+        padding: 15px 0px 15px 0px;
+        width: 160px
     }
 
-    .arrow {
+    .menu_page_links{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .menu_navigation{
+        margin-left: 0%;
+        font-size: 16px;
+    }
+
+    .some_mobile_menu_icons{
         display: none;
     }
 
-    .right {
+    .menu_bose_icon{
         display: none;
     }
+
+
 
 }
