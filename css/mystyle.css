@@ -10,7 +10,7 @@
 
 html {
     font-size: 100%;
-    background-color: mediumpurple;
+    background-color: black;
 }
 
 /* You start your css below */
@@ -212,6 +212,10 @@ html {
     margin-top: 20px;
 }
 
+.main_body_sf_button-dt1 {
+    display: none;
+}
+
 .main_body_sf_product_img1 {
     width: 250px;
     margin-left: auto;
@@ -232,10 +236,10 @@ html {
 /*-----main page campaign section--------*/
 
 .main_body_campaign_container {
-    background-color: white;
+    background-color: #E6E9E9;
     /*border-color: #014C6B;*/
     width: 100%;
-    border: 6px solid rgb(1, 76, 107, 1);
+    /*border: 6px solid rgb(1, 76, 107, 1);*/
     display: flex;
     flex-direction: column;
     max-width: 800px;
@@ -250,6 +254,7 @@ html {
     margin-top: 25px;
     margin-bottom: 20px;
     font-style: italic;
+
 }
 
 .main_body_campaign_innerflexbox {
@@ -261,6 +266,7 @@ html {
     font-family: industry;
     text-align: center;
     font-size: 18px;
+
 }
 
 .main_body_campaign_button {
@@ -268,7 +274,7 @@ html {
     text-decoration: none;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: #D0E537;
     border-radius: 25px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -450,17 +456,27 @@ html {
 /*---main page content spotify-----*/
 
 
-.main_body_music_container {}
-
-.main_body_music_innerflexbox {
+.main_body_music_container {
     display: flex;
     flex-direction: column;
     background-color: white;
+    height: ;
     /*border: solid 8px rgb(255, 255, 255);*/
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     /*box-shadow: 5px 10px 18px 0px #888888;*/
+}
+
+.main_body_music_flexbox {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+}
+
+.main_body_music_innerflexbox {
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -845,36 +861,44 @@ html {
     @media only screen and (min-width: 600px) {
 
         .main_landing_container {
-            background-image: url(../images/photos/landing_mobile600-short.jpg);
+            background-image: url(../images/photos/landing-600-2.gif);
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-size: 100%;
             background-position: top;
-            height: 500px;
-            max-width: 600px;
+            height: 620px;
+            max-width: 899px;
             margin-left: auto;
             margin-right: auto;
-            max-height: px;
+            max-height: 800px;
             min-height: 00px;
             */
         }
 
         .main_landing_buttons_container {
             flex-direction: row;
-            padding-top: 480px;
-
+            padding-top: 450px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .main_landing_cta_button {
 
             margin: 10px;
-            width: 280px;
             padding-bottom: 2px;
             padding-top: 2px;
             font-size: 12px;
             width: 250px;
             margin-left: auto;
             margin-right: auto;
+
+        }
+
+        .line_gradient_1 {
+
+            height: 114px;
+            background-color: lightgray;
 
         }
 
@@ -913,8 +937,7 @@ html {
             font-family: industry;
             text-decoration: none;
             text-align: center;
-            color: white;
-            background-color: black;
+
             border-radius: 25px;
             padding-top: 4px;
             padding-bottom: 4px;
@@ -986,56 +1009,371 @@ html {
             margin-top: 5px;
         }
 
-.main_body_rating_text_container {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-bottom: 0px;
-}
+        .main_body_rating_text_container {
+            display: flex;
+            flex-direction: column;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-bottom: 0px;
+        }
 
-.main_body_rating_header {
-    font-family: sol-pro;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 22px;
-}
+        .main_body_rating_header {
+            font-family: sol-pro;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
 
         .main_body_rating_text {
-    font-family: industry;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 10px;
-}
+            font-family: industry;
+            font-size: 16px;
+            text-align: center;
+            margin-top: 10px;
+        }
 
         .line_gradient_7 {
-    width: 5px;
-    height: 100px;
-    background-color: darkgray;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    margin-top: 50px;
-}
+            width: 5px;
+            height: 100px;
+            background-color: darkgray;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+            margin-top: 50px;
+        }
+
+
+        .main_body_music_container {
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            height: ;
+            /*border: solid 8px rgb(255, 255, 255);*/
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            /*box-shadow: 5px 10px 18px 0px #888888;*/
+        }
+
+        .main_body_music_flexbox {
+            display: flex;
+            flex-direction: row;
+            margin: 15px 22px;
+        }
+
+
+        .main_body_music_innerflexbox {
+            display: flex;
+            flex-direction: row;
+
+
+        }
+
+        .main_body_music_spotify_logo {
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            /*margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;*/
+            max-width: 100px;
+        }
+
+        .main_body_music_header {
+            font-family: industry;
+            font-size: 25px;
+            text-align: left;
+            padding-left: 30px;
+            padding-right: 20px;
+            margin: auto;
+            /*color: white;*/
+        }
+
+        .main_body_music_button {
+            font-family: industry;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            background-color: black;
+            border-radius: 25px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 12px;
+            width: 270px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-top: auto;
+            max-height: 45px;
+        }
+
+
+
+
+
 
     }
 
     @media only screen and (min-width: 900px) {
 
         .main_landing_container {
-            background-image: url(../images/photos/landing_mobile600-short.jpg);
+            background-image: url(../images/photos/landing-900.gif);
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-size: 100%;
             background-position: top;
-            height: 500px;
+            height: 650px;
             max-width: 900px;
             margin-left: auto;
             margin-right: auto;
-            max-height: px;
+            /*max-height: 699px;
             min-height: 00px;
             */
         }
+
+
+        .main_landing_buttons_container {
+            flex-direction: row;
+            padding-top: 520px;
+            max-width: 780px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main_landing_cta_button {
+
+            margin: 10px;
+            width: 300px;
+            padding-bottom: 4px;
+            padding-top: 4px;
+            font-size: 14px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+
+        .main_body_fs_container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+            margin-top: 80px;
+            margin-bottom: 50px;
+            align-content: space-between;
+            height: 560px
+        }
+
+        .sf_text_container {
+            width: 290px;
+            margin-left: 80px;
+            margin-bottom: 0px;
+        }
+
+        .main_body_sf_heading {
+            font-family: sol-pro;
+            letter-spacing: 2px;
+            text-align: left;
+            padding-bottom: 15px;
+            font-size: 38px;
+        }
+
+        .main_body_sf_text {
+            font-family: industry;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0px;
+            padding-right: 0px;
+            text-align: left;
+            font-size: 18px;
+            padding-bottom: 0px;
+            max-width: 520px;
+        }
+
+        .main_body_sf_product_img1 {
+            order: -1;
+            margin-top: 0px;
+            margin-left: 80px;
+            margin-right: 100px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            object-fit: contain;
+
+
+        }
+
+        .main_body_sf_product_img2 {
+            order: 4;
+            object-fit: contain;
+            margin-left: 140px;
+            margin-right: 0px;
+        }
+
+        .main_body_sf_button {
+            display: none;
+        }
+
+        .main_body_sf_button-dt1 {
+            display: block;
+            font-family: industry;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            background-color: black;
+            border-radius: 25px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 10px;
+            letter-spacing: 1px;
+            width: 280px;
+            margin-left: auto;
+            margin-bottom: 20px;
+            margin-top: 0px;
+            width: 180px;
+        }
+
+        .main_body_sf_button-dt2 {
+            display: block;
+            font-family: industry;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            background-color: black;
+            border-radius: 25px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 10px;
+            letter-spacing: 1px;
+            width: 280px;
+            margin-right: auto;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            width: 180px;
+        }
+
+        .line_gradient_3 {
+            display: none;
+        }
+
+        .line_gradient_4 {
+            margin-top: 0px;
+            height: 70px;
+        }
+
+        .main_body_campaign_header {
+            font-family: industry;
+            text-align: center;
+            font-size: 65px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        .main_body_campaign_innerflexbox {
+            display: flex;
+            margin-left: 65px;
+            margin-right: 55px;
+            margin-bottom: 25px;
+            align-content: stretch;
+        }
+
+        .main_body_campaign_text {
+            text-align: left;
+            font-size: 22px;
+            padding-right: 0px;
+            margin-left: 0px;
+            max-width: 435px;
+        }
+
+        .main_body_campaign_button {
+            margin-left: 48px;
+            margin-right: 0px;
+            margin-top: 5px;
+            margin-bottom: 0px;
+            height: 50px;
+            width: 210px;
+            align-content: flex-end;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            text-align: center;
+        }
+
+
+        .line_gradient_5 {
+            width: 5px;
+            height: 70px;
+            background-color: lightgray;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 60px;
+
+        }
+
+        .line_gradient_6 {
+            height: 120px;
+            margin-bottom: 60px;
+            margin-top: 60px;
+        }
+
+        .line_gradient_7 {
+            width: 5px;
+            height: 120px;
+            background-color: darkgray;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 60px;
+            margin-top: 60px;
+        }
+
+        .main_body_bose_text {
+            max-width: 700px;
+        }
+
+        .main_body_bose_logo {
+            width: 280px;
+        }
+
+
+        .line_gradient_8 {
+            width: 5px;
+            height: 60px;
+            margin-top: 50px;
+        }
+
+        .main_body_music_header {
+            font-family: industry;
+            font-size: 29px;
+            text-align: left;
+            padding-left: 30px;
+            padding-right: 20px;
+            margin: auto;
+            /*color: white;*/
+        }
+
+
+.line_gradient_9 {
+    width: 5px;
+    height: 60px;
+    background-color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
