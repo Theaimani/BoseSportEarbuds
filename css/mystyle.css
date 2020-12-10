@@ -72,7 +72,7 @@ html {
 }
 
 .main_landing_container {
-    background-image: url(../images/photos/landing_mobile-short3.png);
+    background-image: url(../images/photos/landing_mobile-short.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100%;
@@ -81,8 +81,8 @@ html {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    max-height: 498px;
-    min-height: 498px;
+    max-height: 497px;
+    min-height: 497px;
 }
 
 .main_landing_image_input {
@@ -128,12 +128,12 @@ html {
     background-color: white;
     margin: 10px;
     width: 280px;
-    height: 33px;
+    /*height: 33px;*/
     margin-left: auto;
     margin-right: auto;
     border-radius: 50px;
     font-family: industry;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .line_gradient_1 {
@@ -190,7 +190,7 @@ html {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
     padding-bottom: 20px;
     max-width: 520px;
 }
@@ -362,8 +362,6 @@ html {
     text-align: center;
     margin-bottom: 25px;
     font-size: 40px;
-
-
 }
 
 .main_body_rating_innerflexbox {
@@ -761,6 +759,8 @@ html {
 
 }
 
+/*---------------------------------------*/
+/*-----------Media q Footer---------------*/
 
 @media only screen and (min-width: 900px) {
 
@@ -823,19 +823,19 @@ html {
 }
 
 /*---------------------------------------*/
-/*---------------------------------------*/
+/*-----------media Q main page--------------*/
 
 @media only screen and (min-width: 400px) {
 
     .main_landing_container {
-        background-image: url(../images/photos/landing_mobile400-short1.png);
+        background-image: url(../images/photos/landing_mobile400-short.jpg);
 
     }
 
     @media only screen and (min-width: 500px) {
 
         .main_landing_container {
-            background-image: url(../images/photos/landing_mobile500-short.png);
+            background-image: url(../images/photos/landing_mobile500-short.jpg);
         }
 
 
@@ -845,24 +845,197 @@ html {
     @media only screen and (min-width: 600px) {
 
         .main_landing_container {
-            background-image: url(../images/photos/landing_mobile500-short.png);
+            background-image: url(../images/photos/landing_mobile600-short.jpg);
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-size: 100%;
             background-position: top;
-            height: 498px;
+            height: 500px;
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
-            max-height: 498px;
-            min-height: 498px;
+            max-height: px;
+            min-height: 00px;
+            */
         }
 
         .main_landing_buttons_container {
             flex-direction: row;
-            padding-top: 450px;
+            padding-top: 480px;
 
         }
+
+        .main_landing_cta_button {
+
+            margin: 10px;
+            width: 280px;
+            padding-bottom: 2px;
+            padding-top: 2px;
+            font-size: 12px;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .line_gradient_4 {
+            width: 5px;
+            height: 40px;
+            background-color: lightgray;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+        }
+
+        .main_body_campaign_header {
+            font-family: industry;
+            text-align: center;
+            font-size: 55px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+
+
+        .main_body_campaign_innerflexbox {
+            flex-direction: row;
+        }
+
+        .main_body_campaign_text {
+            text-align: left;
+            font-size: 18px;
+            padding-right: 15px;
+            margin-left: 15px;
+            max-width: 450px
+        }
+
+        .main_body_campaign_button {
+            font-family: industry;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            background-color: black;
+            border-radius: 25px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            font-size: 12px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 25px;
+            margin-top: 0px;
+            margin-right: 20px
+        }
+
+        .line_gradient_5 {
+            width: 5px;
+            height: 50px;
+            background-color: lightgray;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+
+        }
+
+        .line_gradient_6 {
+            width: 5px;
+            height: 120px;
+            background-color: lightgray;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+
+        .main_body_rating_title_header {
+            font-family: industry;
+            text-align: center;
+            margin-bottom: 45px;
+            font-size: 40px;
+        }
+
+        .main_body_rating_flexbox {
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .main_body_rating_innerflexbox {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+
+        .main_body_rating_product_1_img {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 10px;
+        }
+
+        .main_body_rating_line {
+            height: 360px;
+            width: 3px;
+            background-color: lightgray;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+        }
+
+.main_body_rating_text_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+
+.main_body_rating_header {
+    font-family: sol-pro;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+        .main_body_rating_text {
+    font-family: industry;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+        .line_gradient_7 {
+    width: 5px;
+    height: 100px;
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
     }
 
+    @media only screen and (min-width: 900px) {
 
+        .main_landing_container {
+            background-image: url(../images/photos/landing_mobile600-short.jpg);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: 100%;
+            background-position: top;
+            height: 500px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: px;
+            min-height: 00px;
+            */
+        }
+
+
+    }
