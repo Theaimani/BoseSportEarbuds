@@ -14,3 +14,279 @@ html {
 }
 
 /* You start your css below */
+/*----------------------------- */
+
+/*--------name here------------ */
+
+
+.campaign_title_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.campaign_title_header{
+    font-family: industry;
+    font-size: 26px;
+    text-align: center;
+
+}
+
+.campaign_title_description{
+    font-family: industry;
+    font-size: 18px;
+    text-align: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.campaign_content_flexbox_container{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.campaign_description_text_container{
+
+}
+
+.campaign_description_header{
+    font-family: sol-pro;
+    font-size: 24px;
+    text-align: center;
+}
+
+.campaign_description_text{
+    font-family: industry;
+    margin-top: 10px;
+    text-align: center;
+    display: none;
+}
+
+.campaign_form_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.campaign_form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.form_lable{
+    font-family: industry;
+    margin-left: 5px;
+}
+
+
+.form_input{
+    font-family: industry;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.form_enter_button{
+    font-family: industry;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 2px 0px;
+}
+
+.campaign_body_image{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.campaign_image_container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+/*----------------------------- */
+
+/*--------name here------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------- */
+
+/*--------name here------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------- */
+
+/*--------name here------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------- */
+
+/*--------name here------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------- */
+
+/*--------name here------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------- */
+
+/*--------name here------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------- */
+
+/*--------name here------------ */
+
+
