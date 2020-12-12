@@ -10,7 +10,908 @@
 
 html {
     font-size: 100%;
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 /* You start your css below */
+
+/*----------------------------- */
+
+/*--------name here------------ */
+
+.support_page_body{
+    background-color: white;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*----------------------------- */
+
+/*--------second header------------ */
+
+
+
+.second_header_section{
+    display: flex;
+    min-width: 320px;
+    background-color: #01526F;
+    color: white;
+    /*background-color: #F9F9F9;
+    border-top: 1px solid;*/
+    border-bottom: 0px solid;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    white-space: nowrap;
+    /*position: sticky;*/
+
+}
+
+
+.second_header_links_container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.second_menu_menuitem{
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    color:white;
+    /*color: black;*/
+    font-family: sol-pro;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/*----------------------------- */
+
+.blackground_color{
+
+}
+
+/*--------faq section------------ */
+
+.faq_section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 35px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.support_heading{
+    font-family: industry;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq_flexbox{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.faq_innerflexbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.faq_header{
+    font-family: sol-pro;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.faq_text{
+    font-family: industry;
+    text-align: center;
+    font-size: 18px;
+}
+
+.faq_text_contact{
+    font-family: industry;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+/*----------------------------- */
+
+/*--------contact------------ */
+
+
+.contact_section{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E6E9E9;
+    padding-top: 40px;
+}
+
+.contact_flexbox_container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact_innerflexbox{
+    display: flex;
+    flex-direction: column;
+    background-color: #E6E9E9;
+    padding: 35px 10px;
+
+}
+
+.contact_line_1{
+    width: 100%;
+    height: 4px;
+    background-color: white;
+
+}
+
+.support_heading_description{
+    font-family: industry;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_header{
+     font-family: sol-pro;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.contact_text{
+    font-family: industry;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cs_chat_link{
+    text-decoration: ;
+    color: #014c6b;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/*--------contact form------------ */
+
+
+.form_container{
+    display: flex;
+    flex-direction: column;
+    background-color: #E6E9E9;
+    padding: 35px 0px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.form_lable{
+    font-family: industry;
+    margin-left: 15px;
+}
+
+
+.form_input{
+    font-family: industry;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form_input_subject{
+    font-family: industry;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 100px;
+}
+
+.form_enter_button{
+    font-family: industry;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #01526F;
+    /*background-color: #d0e537;*/
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 3.5px 0px;
+}
+
+
+
+/*----------------------------- */
+
+/*--------some ------------ */
+
+.some_flexbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(white, lightgray);
+    /*border: 5px solid rgb(0 0 0);*/
+    /*background-color: rgb(1, 76, 107, 0.2 );*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: ;
+
+
+}
+
+.some_text_innerflexbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.support_heading_text{
+    font-family: industry;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.support_some_image_gridcontainer{
+  display: grid;
+    margin-left: auto;
+    margin-right: auto;
+  /*grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  gap: 10px 10px;*/
+  grid-template-areas:
+    "some1 some2 . ."
+    "some3 some4 . ."
+    ". . . .";
+}
+
+.some1 {
+    grid-area: some1;
+    margin: 15px 20px;
+}
+
+.some2 {
+    grid-area: some2;
+   margin: 15px 20px;
+}
+
+.some3 {
+    grid-area: some3;
+    margin: 15px 20px;
+}
+
+.some4 {
+    grid-area: some4;
+    margin: 15px 20px;
+}
+
+.support_some_image1{
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/*----------------------------- */
+
+/*--------lines------------ */
+
+.support_line_1{
+    width: 5px;
+    height: 80px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.support_line_2{
+    width: 5px;
+    height: 80px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.support_line_3{
+    width: 5px;
+    height: 80px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: none;
+}
+
+
+
+/*----------------------------- */
+
+
+.support_top_image{
+    width: 100%;
+}
+
+.faq_heading_image_container{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.faq_heading_600{
+        display: none;
+    }
+
+.faq_heading_image{
+    width: 100px;
+}
+
+.contact_heading_image_container{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+
+.contact_heading_image{
+    width: 100px;
+}
+
+/*--------Media Q 600------------ */
+
+@media only screen and (min-width: 600px){
+
+    .support_top_image{
+        display: block;
+        width: 100%;
+
+    }
+
+
+    .faq_section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 35px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .faq_heading_600{
+        display: none;
+    }
+
+    .faq_heading_image_container{
+        display: block;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:;
+        margin-bottom: 40px;
+    }
+
+    .faq_heading_image{
+        width: 100%;
+
+    }
+
+
+   .faq_flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+ .faq_innerflexbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+     max-width: 260px;
+}
+
+    .faq_line_1{
+        width: 1px;
+        height: 250px;
+        background-color: black;
+        margin: 0px 20px auto 15px;
+    }
+
+    /*.faq_line_2{
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin: 30px auto 30px auto;
+    }*/
+
+    /*.faq_line_2_2{
+        width: 240px;
+        height: 1px;
+        background-color: black;
+        margin: 30px 0 30px auto;
+    }*/
+
+    .faq_line_3{
+        width: 1px;
+        height: 250px;
+        background-color: black;
+        margin: 0px 20px auto 15px;
+    }
+
+    .faq_header{
+        text-align: left;
+    }
+
+    .faq_text{
+    text-align: left;
+
+}
+    .faq_text_contact{
+    text-align: center;
+
+}
+
+    .faq_innerflexbox_contact{
+      margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+    }
+
+
+   .contact_innerflexbox{
+    display: flex;
+    flex-direction: row;
+    padding: 35px 10px;
+
+}
+
+
+    .contact_header{
+        margin-left: 40px;
+        margin-right: 60px;
+    }
+
+    .contact_heading_image_container{
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:;
+        margin-bottom: 30px;
+    }
+
+    .contact_heading_image{
+        width: 100%;
+
+    }
+
+    .support_heading_description{
+      margin-bottom: 30px;
+    }
+
+    .contact_text{
+
+    }
+
+    .form_container{
+    background-color: #E6E9E9;
+    padding: 35px 40px;
+}
+
+    .form_lable{
+    margin-left: 0px;
+}
+
+    .form_input{
+        padding-left: 8px;
+
+}
+
+  .support_some_image_gridcontainer{
+      display:flex;
+      flex-direction: row;
+
+}
+
+
+
+}
+
+
+/*----------------------------- */
+
+/*--------Media Q 900------------ */
+
+@media only screen and (min-width: 900px){
+
+      .support_top_image{
+        display: block;
+        width: 100%;
+
+    }
+
+
+    .faq_section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 35px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+    .faq_heading_image_container{
+        display: block;
+        width: 26%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:;
+        margin-bottom: 0px;
+
+    }
+
+    .faq_heading_image{
+        width: 100%;
+
+    }
+
+
+   .faq_flexbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ .faq_innerflexbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+    .faq_line_1{
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin: auto;
+    }
+
+    .faq_line_2{
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin: auto;
+    }
+
+
+
+    .faq_line_3{
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin: auto;
+    }
+
+    .faq_line_4{
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin: auto;
+    }
+
+     .faq_line_5{
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin: auto;
+         margin-top: 40px;
+    }
+
+    .faq_header{
+        text-align: left;
+    }
+
+    .faq_text{
+    text-align: left;
+
+}
+    .faq_text_contact{
+    text-align: center;
+
+}
+
+    .faq_innerflexbox_contact{
+      margin-left: auto;
+        margin-right: auto;
+        max-width: 900px;
+    }
+
+  /*-------contact-----------*/
+
+    .contact_section{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 40px;
+}
+
+    .support_heading_description{
+    width: 70%;
+    margin-top: -10px;
+
+}
+
+   .contact_innerflexbox{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px;
+    margin: 10px auto;
+    border-radius: 20px;
+    height: 75px;
+       width: 85%
+}
+
+
+    .contact_header{
+        margin-left: 40px;
+        margin-right: 60px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .contact_heading_image_container{
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:0;
+        margin-bottom: 50px;
+    }
+
+    .contact_heading_image{
+        width: 100%;
+
+    }
+
+    .support_heading_description{
+      margin-bottom: 30px;
+    }
+
+    .contact_text{
+        margin: auto 0px;
+    }
+
+    /*------lines---------*/
+
+
+    .contact_line_1{
+    display: none;
+}
+    .support_line_1{
+    width: 5px;
+    height: 100px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+    /*------form---------*/
+
+    .form_container{
+    background-color: #E6E9E9;
+    padding: 35px 40px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        margin: 10px auto;
+}
+    .contact_form_header{
+        margin-bottom: 20px;
+    }
+
+    .form_lable{
+    margin-left: 8px;
+        font-size: 18px;
+}
+
+    .form_input{
+        padding-left: 8px;
+        font-size: 17px;
+
+}
+
+
+
+/*------some---------*/
+
+    .support_line_2_some{
+        margin-bottom: 10px;
+        height: 60px;
+        margin-top: 60px;
+    }
+
+    .some_section{
+        display: block;
+        align-content: center;
+    }
+
+ .some_flexbox{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding: 0px 0px;
+    background-image: none;
+    align-content: center;
+    justify-content: center;
+     /*background-image: linear-gradient(white, lightgray);
+    /*background-color: rgb(1, 76, 107, 0.2 );*/
+     /*border: 8px solid rgb(0 0 0);*/
+}
+
+    .some_text_innerflexbox{
+    display: flex;
+    flex-direction: column;
+    margin: auto 40px auto 0px;
+
+
+
+}
+
+    .support_heading_some{
+    font-family: industry;
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    width: 80%;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+    .support_heading_text_some{
+    font-family: industry;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -20px;
+        max-width: 250px;
+}
+
+     .support_some_image_gridcontainer{
+      display:grid;
+     margin: auto 0px auto 50px;
+
+
+}
+
+    .support_some_image1{
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ .support_line_3{
+    width: 5px;
+    height: 60px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    display: block;
+}
+
+
+    .support_line_0{
+        height: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+

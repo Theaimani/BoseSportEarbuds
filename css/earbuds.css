@@ -32,20 +32,22 @@ html {
 
 
 
-.earbuds_second_header_section{
+.second_header_section{
     display: flex;
     min-width: 320px;
-    background-color: #F9F9F9;
+    background-color: #01526F;
+    color: white;
     overflow: auto;
     white-space: nowrap;
-    border-top: 1px solid;
     border-bottom: 0px solid;
-    /*position: sticky;*/
+    /*position: sticky;
+    border-top: 1px solid;
+    background-color: #F9F9F9;*/
 
 }
 
 
-.earbuds_second_header_links{
+.second_header_links_container{
     display: flex;
     flex-direction: row;
     padding-left: 0px;
@@ -56,11 +58,11 @@ html {
 
 }
 
-.earbuds_menuitem{
+.second_menu_menuitem{
     text-decoration: none;
     padding-left: 16px;
     padding-right: 16px;
-    color: black;
+    color: white;
     font-family: sol-pro;
     font-size: 10px;
     letter-spacing: 1px;
