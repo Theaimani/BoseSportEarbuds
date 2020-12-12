@@ -230,6 +230,7 @@ html {
 .form_lable{
     font-family: industry;
     margin-left: 15px;
+    font-size: 18px;
 }
 
 
@@ -239,6 +240,7 @@ html {
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 30px;
+    font-size: 17px;
 }
 
 .form_input_subject{

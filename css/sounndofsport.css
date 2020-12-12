@@ -10,7 +10,7 @@
 
 html {
     font-size: 100%;
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 /* You start your css below */
@@ -18,8 +18,26 @@ html {
 
 /*--------name here------------ */
 
+.campaign_page_body{
+    background-color: white;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading_image{
+    width: 100%;
+}
+
+.heading_image_900{
+    display: none;
+}
 
 .campaign_title_container{
+    display: none;
+}
+
+/*.campaign_title_container{
     display: flex;
     flex-direction: column;
     margin-top: 40px;
@@ -27,6 +45,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+    display: none;
 }
 
 .campaign_title_header{
@@ -43,6 +62,17 @@ html {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+}*/
+
+.campaign_line_1{
+    width: 5px;
+    height: 95px;
+    background-image: linear-gradient(white, #c7e23e);
+    background-color: #c7e23e;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .campaign_content_flexbox_container{
@@ -54,9 +84,9 @@ html {
 }
 
 .campaign_description_text_container{
-
+ display: none;
 }
-
+/*
 .campaign_description_header{
     font-family: sol-pro;
     font-size: 24px;
@@ -69,11 +99,11 @@ html {
     text-align: center;
     display: none;
 }
-
+*/
 .campaign_form_container{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 
@@ -86,6 +116,7 @@ html {
 .form_lable{
     font-family: industry;
     margin-left: 5px;
+    font-size: 18px;
 }
 
 
@@ -95,6 +126,9 @@ html {
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 30px;
+    background-color: #E6E9E9;
+    color: dimgray;
+    font-size: 17px;
 }
 
 
@@ -106,12 +140,12 @@ html {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #01526F;
-    /*background-color: #d0e537;*/
+    background-color:#d0e537;
+    /*background-color: #01526F;*/
     color: white;
     font-weight: 600;
     border-radius: 25px;
-    padding: 2px 0px;
+    padding: 5px 0px;
 }
 
 .campaign_body_image{
@@ -127,7 +161,16 @@ html {
     margin-bottom: 0px;
 }
 
-
+.campaign_line_2{
+    display: block;
+    height: 100px;
+    width: 5px;
+    background-image: linear-gradient( #c7e23e, white);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    }
 
 
 
@@ -135,10 +178,94 @@ html {
 
 /*----------------------------- */
 
-/*--------name here------------ */
+/*--------Media Q 600----------- */
+
+@media only screen and (min-width: 600px){
+
+    .heading_image_comtainer{
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .heading_image{
+     display: block;
+        width: 600px;
+        height: 620px;
+        object-fit:cover;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .campaign_line_1{
+       height: 120px;
+    }
+
+    .campaign_form_container{
+        margin-bottom: 30px;
+    }
+
+    .campaign_line_2{
+    height: 130px;
+    width: 5px;
+    background-image: linear-gradient( #c7e23e, white);
+    background-color: #c7e23e;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    }
+
+
+}
 
 
 
+/*--------Media Q 600----------- */
+
+@media only screen and (min-width: 900px){
+
+    .heading_image{
+    display: none;
+}
+
+    .heading_image_900{
+    display:block;
+        width: 900px;
+
+}
+
+
+    .campaign_line_1{
+       height: 120px;
+        margin-bottom: 30px;
+    }
+
+    .campaign_form_container{
+        margin-bottom: 30px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .campaign_line_2{
+    display: block;
+    height: 130px;
+    width: 5px;
+    background-image: linear-gradient( #c7e23e, white);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    }
+
+
+
+
+}
 
 
 
