@@ -10,19 +10,21 @@
 
 html {
     font-size: 100%;
-    background-color: white;
+    background-color: black;
 }
 
 /* You start your css below */
 
 /* ----page body container--- */
 
-.earbuds_page_body{
+.earbuds_page_body {
     background-color: white;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 
 /*----------------------------- */
@@ -32,7 +34,7 @@ html {
 
 
 
-.second_header_section{
+.second_header_section {
     display: flex;
     min-width: 320px;
     background-color: #01526F;
@@ -47,18 +49,20 @@ html {
 }
 
 
-.second_header_links_container{
+.second_header_links_container {
     display: flex;
     flex-direction: row;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 12px;
     padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
 
-.second_menu_menuitem{
+.second_menu_menuitem {
     text-decoration: none;
     padding-left: 16px;
     padding-right: 16px;
@@ -76,16 +80,23 @@ html {
 /*--------earbuds about section------------ */
 
 
-.earbuds_about_section{
-    margin-top: 30px;
+.earbuds_about_section {
+    margin-top: 0px;
 }
 
-.earbuds_about_flexbox{
+.earbuds_about_flexbox {
     display: flex;
     flex-direction: column;
 }
 
-.earbuds_heading{
+.earbuds_background_color {
+    width: 100%;
+    background-image: linear-gradient(#01526F, white);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.earbuds_heading {
     font-family: industry;
     text-align: center;
     margin-bottom: 10px;
@@ -95,17 +106,45 @@ html {
     font-size: 30px;
 }
 
-.earbuds_about_innerflexbox{
-   display: flex;
+.earbuds_heading_about {
+    font-family: industry;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 34px;
+    color: white;
+
+
+}
+
+.earbuds_heading_about_description {
+    color: white;
+    font-family: industry;
+    font-size: 18px;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+
+.earbuds_about_innerflexbox {
+    display: flex;
     flex-direction: column;
 
 }
 
-.earbuds_about_desctiption_left_flexbox{
-
+.earbuds_about_desctiption_left_flexbox {
+    width: 90%;
+    margin: auto;
 }
 
-.earbuds_about_desctiption_text{
+.earbuds_about_desctiption_right_flexbox {
+    width: 90%;
+    margin: auto;
+}
+
+.earbuds_about_desctiption_text {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
@@ -114,41 +153,60 @@ html {
     margin-right: auto;
 }
 
-.earbuds_about_desctiption_heading{
+.earbuds_about_desctiption_heading {
     font-family: sol-pro;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     font-size: 24px;
 }
 
-.earbuds_about_desctiption_text_p{
+.earbuds_about_desctiption_list_p {
+    font-family: industry;
+    text-align: left;
+    font-size: 18px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.soundq_list {}
+
+.soundq_list_item {
+    margin: 20px 0px;
+}
+
+.earbuds_about_desctiption_text_p {
     font-family: industry;
     text-align: center;
     font-size: 18px;
 }
 
 
-.earbuds_about_image_container{
+.earbuds_about_image_container {
     order: -1;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-top: -30px;
+    margin-bottom: 25px;
 }
 
-.earbuds_about_image{
-    width: 280px;
+.earbuds_about_image {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
-.earbuds_button_container{
+.earbuds_button_container {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    order: -1;
 
 }
 
-.earbuds_buy_button1{
+.earbuds_buy_button1 {
     /*width: 180px;
     border-radius: 25px;
     padding: 5px 10px;
@@ -156,37 +214,38 @@ html {
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;*/
+    text-decoration: none;
 }
 
-.earbuds_buy_button_text{
+.earbuds_buy_button_text {
     font-family: industry;
     font-size: 20px;
     letter-spacing: 2px;
     color: white;
-    background-color: blue;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    background-color: #01526F;
+    text-decoration: none;
+    padding: 6px 90px;
     border-radius: 35px;
 }
+
+
 
 
 /*----------------------------- */
 
 /*--------in action section------------ */
 
-.earbuds_inaction_flexbox{
+.earbuds_inaction_flexbox {
     display: flex;
     flex-direction: column;
 }
 
-.earbuds_inaction_innerflexbox{
+.earbuds_inaction_innerflexbox {
     display: flex;
     flex-direction: column;
 }
 
-.earbuds_inaction_text_video_flexbox{
+.earbuds_inaction_text_video_flexbox {
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -194,44 +253,88 @@ html {
     align-content: center;
 }
 
-.earbuds_inaction_ht_container{
+.earbuds_inaction_ht_container {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
 }
 
-.earbuds_inaction_heading{
+.earbuds_inaction_heading {
     font-family: sol-pro;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
     margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: 25px
 
 }
 
-.earbuds_inaction_text{
+.earbuds_inaction_text {
     font-family: industry;
     font-size: 18px;
     margin-bottom: 50px;
 }
 
+.earbuds_inaction_link_text {
+    font-family: sol-pro;
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: center;
 
-.earbuds_inaction_video_container{
-    order: -1 ;
+}
+
+.seemore_tutorials_link {
+   color: darkgray;
+
+}
+
+
+.earbuds_inaction_text_1 {
+    font-family: industry;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.earbuds_inaction_quote {
+    font-family: sol-pro;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.earbuds_inaction_quote_name{
+    font-family: industry;
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+
+
+.earbuds_inaction_video_container {
+    order: -1;
     margin-left: auto;
     margin-right: auto;
 }
 
-.earbuds_inaction_a_video{
+.earbuds_inaction_a_video {
     display: block;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 20px;
 }
 
-.earbuds_inaction_video{
+.earbuds_inaction_video {
     display: block;
     width: 100%;
     order: ;
@@ -240,7 +343,15 @@ html {
     margin-bottom: 20px;
 }
 
-.earbuds_heading_tutorials{
+
+.tutorial_container{
+    background-color: #01526F;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    color: white;
+}
+
+.earbuds_heading_tutorials {
     font-family: industry;
     text-align: center;
     margin-bottom: 20px;
@@ -248,6 +359,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     font-size: 30px;
+    letter-spacing: 2px;
 }
 
 
@@ -255,13 +367,13 @@ html {
 
 /*----ratings and reviews section--------- */
 
-.earbuds_review_section{
+.earbuds_review_section {
     display: flex;
     flex-direction: column;
 
 }
 
-.earbuds_heading_desctiption_text{
+.earbuds_heading_desctiption_text {
     font-family: industry;
     text-align: center;
     font-size: 18px;
@@ -272,29 +384,29 @@ html {
     display: none;
 }
 
-.earbuds_review_flexbox{
- width: 90%;
+.earbuds_review_flexbox {
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
     margin-top: 30px;
 }
 
-.earbuds_review_innerflexbox{
+.earbuds_review_innerflexbox {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
     margin-top: 10px;
 }
 
-.earbuds_review_header{
+.earbuds_review_header {
     font-family: sol-pro;
     font-size: 24px;
     margin-bottom: 15px;
     text-align: center;
 }
 
-.earbuds_review_star_image{
+.earbuds_review_star_image {
     width: 50%;
     margin-bottom: 15px;
     margin-left: auto;
@@ -302,7 +414,7 @@ html {
 
 }
 
-.earbuds_review_text{
+.earbuds_review_text {
     font-family: industry;
     font-size: 18px;
     text-align: center;
@@ -312,14 +424,14 @@ html {
 
 /*--------buy now section------------ */
 
-.earbuds_buy_section{
+.earbuds_buy_section {
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    background-color: #E6E9E9;
     margin-bottom: 0px;
 }
 
-.earbuds_buy_flexbox_container{
+.earbuds_buy_flexbox_container {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -329,7 +441,7 @@ html {
 
 }
 
-.earbuds_buy_gallery_image1{
+.earbuds_buy_gallery_image1 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -337,11 +449,11 @@ html {
     margin-bottom: 20px;
 }
 
-.earbuds_buy_gallery_image2{
+.earbuds_buy_gallery_image2 {
     display: none;
 }
 
-.earbuds_buy_heading_mobile{
+.earbuds_buy_heading_mobile {
     order: ;
     font-family: industry;
     text-align: center;
@@ -354,7 +466,7 @@ html {
     display: none;
 }
 
-.earbuds_buy_heading{
+.earbuds_buy_heading {
     display: ;
     order: -1;
     font-family: industry;
@@ -367,25 +479,26 @@ html {
     margin-top: 10px;
 }
 
-.earbuds_buy_image_container{
+.earbuds_buy_image_container {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
 
 }
 
-.earbuds_buy_text_container{
-  display: flex;
+.earbuds_buy_text_container {
+    display: flex;
     flex-direction: column;
 }
 
-.earbuds_buy_button{
+.earbuds_buy_button {
     order: -1;
     font-family: industry;
+    font-weight: 600;
     font-size: 20px;
     letter-spacing: 2px;
     color: white;
-    background-color: blue;
+    background-color: #01526F;
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 8px;
@@ -395,7 +508,7 @@ html {
     text-align: center;
 }
 
-.earbuds_buy_price_text{
+.earbuds_buy_price_text {
     font-family: sol-pro;
     font-size: 18px;
     text-align: center;
@@ -404,11 +517,12 @@ html {
     order: -1;
 }
 
-.earbuds_buy_text{
+.earbuds_buy_text {
     font-family: industry;
     font-size: 18px;
     text-align: center;
     margin-top: 30px;
+    letter-spacing: 0.1px
 }
 
 
@@ -426,66 +540,77 @@ html {
 
 /*-----------lines------------ */
 
-.earbuds_line_2{
+.earbuds_line_1_ {
     width: 5px;
-    height: 50px;
-    background-color: black;
+    height: 80px;
+    background-color: #01526F;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 40px;
-
-}
-
-.earbuds_line_3{
-    width: 5px;
-    height: 50px;
-    background-color: black;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 0px;
     margin-bottom: 40px;
 
 }
 
-.earbuds_line_4{
+.earbuds_line_2 {
     width: 5px;
-    height: 80px;
-    background-color: black;
+    height: 50px;
+    background-color: #01526F;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 50px;
     margin-top: 0px;
 
 }
 
-.earbuds_line_5{
+.earbuds_line_3 {
+    width: 5px;
+    height: 50px;
+    background-color: #01526F;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+
+}
+
+.earbuds_line_4 {
     width: 5px;
     height: 80px;
-    background-color: black;
+    background-image: linear-gradient(#01526F, white);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+}
+
+.earbuds_line_5 {
+    width: 5px;
+    height: 80px;
+    background-color: #01526F;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
 
 }
 
-.earbuds_line_6{
+.earbuds_line_6 {
     width: 5px;
     height: 80px;
-    background-color: black;
+    background-color: #01526F;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 
 }
 
-.earbuds_line_7{
+.earbuds_line_7 {
     width: 5px;
     height: 80px;
-    background-color: black;
+    background-image: linear-gradient(white,#01526F);
     margin-right: auto;
     margin-left: auto;
     margin-top: -10px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 
 }
 
@@ -515,33 +640,30 @@ html {
 
 /*----------Media Q------------ */
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
 
 
-.earbuds_second_header_section{
-    display: flex;
-    min-width: 320px;
-    overflow: auto;
-    white-space:inherit;
+    .earbuds_second_header_section {
+        display: flex;
+        min-width: 320px;
+        overflow: auto;
+        white-space: inherit;
 
-    /*position: sticky;*/
+        /*position: sticky;*/
 
-}
+    }
 
-.earbuds_second_header_links{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    margin-left:auto;
-    margin-right: auto;
-
-
-
+    .earbuds_second_header_links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-left: auto;
+        margin-right: auto;
 
 
 
@@ -556,7 +678,10 @@ html {
 
 
 
-}
+
+
+
+    }
 
 
 
@@ -566,4 +691,4 @@ html {
 
 
 
-@media only screen and (min-width: 900px)
+    @media only screen and (min-width: 900px)
