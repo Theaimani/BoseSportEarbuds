@@ -259,6 +259,13 @@ html {
     margin-left: auto;
 }
 
+.earbuds_inaction_ht_container_1 {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 .earbuds_inaction_heading {
     font-family: sol-pro;
     margin-left: auto;
@@ -415,6 +422,8 @@ html {
     margin-right: auto;
     margin-bottom: 0px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .earbuds_review_innerflexbox {
@@ -673,9 +682,6 @@ html {
         min-width: 320px;
         overflow: auto;
         white-space: inherit;
-
-        /*position: sticky;*/
-
     }
 
     .earbuds_second_header_links {
@@ -997,4 +1003,114 @@ html {
 /*----------Media Q 900------------ */
 
 
-    @media only screen and (min-width: 900px)
+@media only screen and (min-width: 900px){
+
+   .earbuds_inaction_video_container_600 {
+    display: block;
+    width: 600px;
+    order: -1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .earbuds_inaction_ht_container_1 {
+    width: 66%;
+    margin-right: auto;
+    margin-left: auto;
+        margin-top: 40px;
+}
+
+ .earbuds_line_middle_600_1{
+    display: block;
+    width: 5px;
+    height: 750px;
+    background-color: #01526F;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin: -50px 0px 120px 0px
+    }
+
+
+ .earbuds_about_image {
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+    .earbuds_about_image_container {
+    order: -1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+
+
+ .earbuds_background_color {
+    width: 100%;
+    background-image: linear-gradient(#01526F, white);
+    padding-top: 40px;
+    padding-bottom: 60px;
+     height: 250px;
+}
+
+
+  .earbuds_heading_about_description {
+    color: white;
+    font-family: industry;
+    font-size: 18px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+      margin-top: 20px;
+}
+
+ .earbuds_about_desctiption_text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .earbuds_about_desctiption_left_flexbox {
+    width: 46%;
+    margin: 0px 5px;
+      margin-top: -40px;
+    }
+
+  .earbuds_about_desctiption_right_flexbox {
+    width: 46%;
+    margin: -45px 5px 0px 5px;
+}
+
+
+  .earbuds_review_flexbox {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+      flex-direction: row;
+}
+
+ .earbuds_review_innerflexbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 10px;
+     width: 250px;
+     margin-left: auto;
+     margin-right: auto;
+
+}
+
+
+
+
+
+}
