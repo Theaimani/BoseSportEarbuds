@@ -472,11 +472,12 @@ html {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+    margin-top: 40px;
 
 }
 
 .earbuds_buy_gallery_image1 {
-    width: 100%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -510,13 +511,15 @@ html {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .earbuds_buy_image_container {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    max-width: 900px;
+    background-color: white;
 
 }
 
@@ -549,6 +552,11 @@ html {
     margin-bottom: 25px;
     margin-top: 8px;
     order: -1;
+}
+
+.earbuds_buy_price_text1 {
+    font-family: sol-pro;
+    display: none;
 }
 
 .earbuds_buy_text {
@@ -598,10 +606,12 @@ html {
 .earbuds_line_3 {
     width: 5px;
     height: 50px;
-    background-color: #01526F;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 60px;
+    background-image: linear-gradient(#01526F, white);
+    margin-right: auto;
+
 
 }
 
@@ -623,6 +633,7 @@ html {
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
+    background-image: linear-gradient(white,#01526F);
 
 }
 
@@ -634,6 +645,8 @@ html {
     margin-left: auto;
     margin-top: 0px;
     margin-bottom: 50px;
+        display: none;
+
 
 }
 
@@ -779,7 +792,6 @@ html {
  .earbuds_line_3 {
     width: 5px;
     height: 80px;
-    background-color: #01526F;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 50px;
@@ -833,7 +845,7 @@ html {
     font-family: industry;
     text-align: center;
     margin-bottom: 10px;
-     margin-top: 40px;
+    margin-top: 40px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -850,6 +862,7 @@ html {
     order: -1;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
   .earbuds_inaction_a_video {
@@ -1035,7 +1048,7 @@ html {
 
  .earbuds_about_image {
     display: block;
-    width: 35%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 
@@ -1044,8 +1057,8 @@ html {
     order: -1;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -40px;
-    margin-bottom: 50px;
+    margin-top: -60px;
+    margin-bottom: 20px;
 }
 
 
@@ -1110,7 +1123,197 @@ html {
 }
 
 
+.earbuds_buy_gallery_image1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0 120px;
+}
+
+.earbuds_buy_gallery_image2 {
+    display: block;
+    width: 220px;
+    object-fit: contain;
+    padding: 0px 0px;
+    margin: 0px 25px;
 
 
 
 }
+
+ .earbuds_buy_heading_mobile {
+    order: -1;
+    font-family: industry;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+   display: block;
+}
+
+ .earbuds_buy_heading {
+    display: none;
+}
+
+ .earbuds_buy_image_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 900px;
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+
+
+  .earbuds_buy_price_text {
+    display: none;
+}
+
+  .earbuds_buy_price_text1 {
+    font-family: sol-pro;
+    display: block;
+    font-size: 25px;
+    order: -1;
+    margin: 20px auto 40px auto;
+}
+
+.earbuds_buy_button {
+    order: 1;
+    font-family: industry;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #01526F;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 35px;
+    text-decoration: none;
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.earbuds_buy_text {
+    font-family: industry;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    letter-spacing: 0.1px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ .earbuds_line_6 {
+    display: none;
+    margin-bottom: 0px;
+
+}
+
+  .earbuds_buy_flexbox_container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+
+}
+
+/*-----spacing------ */
+
+ .earbuds_line_5 {
+    height: 80px;
+    margin-top: 60px;
+    background-image: linear-gradient(white,#01526F);
+
+}
+
+ .earbuds_line_4 {
+    margin-top: 0px;
+    margin-bottom: 60px;
+
+}
+
+ .earbuds_heading {
+    font-family: industry;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+ .earbuds_heading_desctiption_text {
+    margin-bottom: 10px;
+}
+
+  .tutorial_container{
+    background-color: #01526F;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+}
+
+   .earbuds_heading_tutorials {
+    font-family: industry;
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+
+  .earbuds_inaction_link_text {
+    font-family: sol-pro;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+  .earbuds_line_7 {
+    height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-bottom: 0px;
+
+}
+
+   .earbuds_button_container {
+    margin: auto 143.5px;
+    margin-bottom: 60px;
+    order: -1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
